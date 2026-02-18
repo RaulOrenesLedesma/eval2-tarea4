@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de acceso</title>
+    <style>
+        /* contraste de ejemplo */
+        body { background-color: #fff; color: #000; }
+        button { background-color: #005a9c; color: #fff; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Acceso</h1>
+    </header>
+    <main>
+        <form action="/login" method="post" aria-label="Formulario de acceso">
+            <div>
+                <label for="user">Nombre de usuario</label>
+                <input id="user" type="text" name="user" placeholder="Usuario" required>
+            </div>
+            <div>
+                <label for="pass">Contraseña</label>
+                <input id="pass" type="password" name="pass" placeholder="Contraseña" required>
+            </div>
+            <button type="submit" accesskey="s">Enviar</button>
+        </form>
+    </main>
+</body>
+</html>

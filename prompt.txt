@@ -1,0 +1,14 @@
+Modifica este código HTML para que sea accesible según la normativa WCAG 2.2 (niveles A, AA, AAA). Asegúrate de:
+
+- Usar etiquetas HTML5 semánticas (`<header>`, `<nav>`, `<main>`, `<section>`, `<footer>`, etc.).
+- Añadir `alt` descriptivos en todas las imágenes y `figcaption` cuando proceda.
+- Incluir atributos ARIA adecuados (`role`, `aria-label`, `aria-labelledby`, `aria-describedby`) en formularios, botones, enlaces y regiones complejas.
+- Proveer `label` asociados a cada campo de formulario y `scope` en tablas, así como `caption`.
+- Garantizar jerarquía correcta de encabezados `<h1>` a `<h6>` sin saltos.
+- Controlar el contraste de color para texto y fondos (valor WCAG 2.2 >=4.5:1 para texto normal, 3:1 para grande).
+- Permitir navegación total por teclado (`tabindex`, `accesskey`, foco visible).
+- Evitar contenido solo visual o dependiente de color.
+- Añadir atributos `lang` y metadatos necesarios.
+- Eliminar elementos obsoletos y no semánticos.
+
+Revisa el código original y genera la versión corregida utilizando estas reglas.
